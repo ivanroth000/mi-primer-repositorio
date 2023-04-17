@@ -1,0 +1,402 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+*{
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: #CAB7ED;
+    
+}
+
+
+
+.navegacion {
+    background-color:#CEE4ED;
+    text-decoration: none;
+    padding: 7px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 1;
+    
+}
+    .navegacion img{
+    width: 200px;
+    margin-left: 15px;
+    
+    
+    }
+   
+
+
+            .navegacion ul {
+            text-decoration: none;
+            list-style: none;
+            display: flex;
+            
+            }
+
+                .navegacion ul li{
+                text-decoration: none;
+                font-size: 22px;
+                font-weight: 600;
+                font-family: 'Oswald', sans-serif;
+                margin-right: 20px;
+                
+                }
+
+                    .navegacion ul li a{
+                    text-decoration: none;
+                    color: black;
+                    }
+
+                        .navegacion ul li a:hover{
+                        text-decoration: underline;
+                        
+                        }
+
+header img{
+    max-width: 100%;
+}
+
+
+.listaComoComprar{
+    display: flex;
+    justify-content: center;
+}
+
+ol{
+    margin: 15px;
+    
+    
+}
+    ol li{
+        margin: 15px;
+        font-weight: 550;
+        font-size: 20px;
+    }
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    text-align: center;
+}
+
+.algoDulceSobreNosotros{
+    margin: 15px;
+    text-align: center;  
+    font-size: 19px;
+}
+
+.mediosDePago svg{
+    width: 50px;
+}
+
+.mercadoPago{
+    width: 70px;
+    margin-left: 30px;
+
+}
+
+
+.logosRedesSociales{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.svgsContactoFooter{
+    margin-top: 20px;
+}
+
+footer{
+    background-color: #CEE4ED;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+    
+    footer h3{
+        font-size: 33px;
+    }
+
+    footer svg{
+        width: 1.875em;
+        fill: #8163b9;
+        margin-left: 1.875em;
+        
+        
+    }
+
+    footer svg:hover{
+        fill: #371870;
+    }
+
+        footer a{
+            text-decoration: none;
+        }
+
+        footer p{
+            font-size: 20px;
+        }
+        .contactoFotterTel{
+            display: flex;
+            margin-left: 25px;
+            
+        }
+            .contactoFotterTel svg{
+                width: 1.875em;
+                margin-bottom: 10px;
+            
+            }
+                .contactoFotterTel p{
+                    margin-left: 0.938em;
+                }
+.contactoFotterMail{
+    display: flex;
+    margin-left: 1.563em;
+}
+    .contactoFotterMail svg{
+        width: 1.875em;
+    }
+        .contactoFotterMail p{
+            margin-left: 0.938em;
+            margin-top: 0.938em;
+            margin-bottom: 0.938em;
+        }
+.contactoFotterUbicacion{
+    display: flex;
+    margin-left: 1.563em;
+    margin-top: 0.938em;
+}
+    .contactoFotterUbicacion svg{
+        width: 1.875em;
+    }
+        .contactoFotterUbicacion p{
+            margin-left: 0.938em;
+        }
+
+
+.productosInicio{
+display: grid;
+width: 100%;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(2,1fr);
+gap: 20px;
+grid-template-areas:
+"t7 t8 t9"
+"t10 t11 t12";
+}
+
+
+.torta7{
+    grid-area: t7;
+    padding-bottom: 50px;
+    margin-left: 10px;
+}
+
+.torta8{
+    grid-area: t8;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-bottom: 50px;
+}
+
+.torta9{
+    grid-area: t9;
+    margin-right: 10px;
+    padding-bottom: 50px;
+}
+
+.torta10{
+    grid-area: t10;
+    margin-left: 10px;
+    padding-bottom: 50px;
+}
+
+.torta11{
+    grid-area: t11;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-bottom: 50px;
+}
+
+.torta12{
+    grid-area: t12;
+    margin-right: 10px;
+    padding-bottom: 50px;
+}
+
+
+    .card-body{  
+        background-color: #f5d69d;
+    }
+        .card-title{
+            font-size: 35px;
+        }
+
+        .card-text{
+            font-size: 20px;
+        }
+
+          
+         
+                .btn{
+                border-radius: 5px;
+                background-color: rgb(235, 235, 235);
+                }
+
+                    .btn:hover{
+                        background-color: rgb(188, 188, 188);
+                    }
+
+
+
+
+.mapaContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    padding-left: 15px;
+    
+}
+
+.btnFormulario{
+    border-radius: 5px;
+    background-color: rgb(235, 235, 235);
+    margin-left: 10px;
+}
+   
+
+.formularios{
+    max-width: 100%;
+}
+
+@media (max-width: 991px){
+    .productosInicio {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+          "t7 t8"
+          "t9 t10"
+          "t11 t12";
+        gap: 20px;
+      }
+    
+      .torta7{
+        margin: 0;
+      }
+    
+      .torta8{
+        margin: 0;
+      }
+    
+      .torta9{
+        margin: 0;
+      }
+    
+      .torta10{
+        margin: 0;
+      }
+    
+      .torta11{
+        margin: 0;
+      }
+    
+      .torta12{
+        margin: 0;
+      }
+    
+}
+
+@media (max-width: 767px) {
+    footer{
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    .redesSocialesFooter{
+        margin: 20px 0px 20px 0px;
+    }
+
+    .contactoFooter{
+        margin: 20px 0px 20px 0px;
+    }
+
+    .mediosDePagoFooter{
+        margin: 20px 0px 20px 0px;
+    }
+
+    .productosInicio {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas:
+          "t7"
+          "t8"
+          "t9"
+          "t10"
+          "t11"
+          "t12";
+        gap: 20px;
+      }
+    
+      .torta7{
+        margin-left: 0;
+        margin-right: 0;
+      }
+    
+      .torta8{
+        margin-left: 0;
+        margin-right: 0;
+      }
+    
+      .torta9{
+        margin-left: 0;
+        margin-right: 0;
+      }
+    
+      .torta10{
+        margin-left: 0;
+        margin-right: 0;
+      }
+    
+      .torta11{
+        margin-left: 0;
+        margin-right: 0;
+      }
+    
+      .torta12{
+        margin-left: 0;
+        margin-right: 0;
+      }
+}
+                                                      
