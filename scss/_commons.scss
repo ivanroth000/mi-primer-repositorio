@@ -107,6 +107,11 @@ h3{
     background-color:$colorProductos;
 }
 
+.card:hover{
+    transform: translate(0,-50px);
+    transition: all 0.5s;
+    cursor: pointer;
+}
 .card-title{
      font-size: $textoLg;
 }
@@ -122,6 +127,10 @@ h3{
         background-color: rgb(199, 191, 191);
     }
 }
+.btnFormulario{
+    @extend .btn;
+    margin-left: 10px;
+}
 
 .mapaContainer{
     display: flex;
@@ -130,11 +139,6 @@ h3{
     padding-left: 15px;
 }
 
-.btnFormulario{
-    border-radius: 5px;
-    background-color: rgb(235, 235, 235);
-    margin-left: 10px;
-}
    
 
 .formularios{
