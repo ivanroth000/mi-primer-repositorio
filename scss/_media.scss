@@ -1,0 +1,98 @@
+@media (max-width: 991px){
+    .productosInicio {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+          "t7 t8"
+          "t9 t10"
+          "t11 t12";
+        gap: 20px;
+      }
+    
+      .torta7{
+        margin: 0;
+      }
+    
+      .torta8{
+        margin: 0;
+      }
+    
+      .torta9{
+        margin: 0;
+      }
+    
+      .torta10{
+        margin: 0;
+      }
+    
+      .torta11{
+        margin: 0;
+      }
+    
+      .torta12{
+        margin: 0;
+      }
+    
+}
+
+@media (max-width: 767px) {
+    footer{
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    .redesSocialesFooter{
+        margin: 20px 0px 20px 0px;
+    }
+
+    .contactoFooter{
+        margin: 20px 0px 20px 0px;
+    }
+
+    .mediosDePagoFooter{
+        padding-bottom: 20px;
+    }
+
+    .productosInicio {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas:
+          "t7"
+          "t8"
+          "t9"
+          "t10"
+          "t11"
+          "t12";
+        gap: 20px;
+      }
+    
+      .torta7{
+        margin-left: 0;
+        margin-right: 0;
+      }
+    
+      .torta8{
+        margin-left: 0;
+        margin-right: 0;
+      }
+    
+      .torta9{
+        margin-left: 0;
+        margin-right: 0;
+      }
+    
+      .torta10{
+        margin-left: 0;
+        margin-right: 0;
+      }
+    
+      .torta11{
+        margin-left: 0;
+        margin-right: 0;
+      }
+    
+      .torta12{
+        margin-left: 0;
+        margin-right: 0;
+      }
+}

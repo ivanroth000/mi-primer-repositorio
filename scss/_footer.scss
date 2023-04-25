@@ -1,0 +1,78 @@
+footer{
+    background-color: $colorSecundario;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    h3{
+        font-size: $textoMd;
+    }
+    svg{
+        width: 1.875em;
+        fill: #8163b9;
+        margin-left: 1.875em;
+        &:hover{
+            fill: #371870;
+        }
+    }
+    a{
+        text-decoration: none;
+    }
+    p{
+        font-size: $textoSm;
+    }
+    .mediosDePago svg{
+        width: 50px;
+    }
+    
+    .mercadoPago{
+        width: 70px;
+        margin-left: 30px;
+    }
+    
+    .logosRedesSociales{
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    .svgsContactoFooter{
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+    
+    .contactoFotterTel{
+        display: flex;
+        margin-left: 25px;
+        svg{
+            width: 1.875em;
+            margin-bottom: 10px;
+        }
+        p{
+            margin-left: 0.938em;
+        }
+    }
+    
+    .contactoFotterMail{
+        display: flex;
+        margin-left: 1.563em;
+        svg{
+            width: 1.875em;
+        }
+        p{
+            margin-left: 0.938em;
+            margin-top: 0.938em;
+        }
+    }
+    
+    .contactoFotterUbicacion{
+        display: flex;
+        margin-left: 1.563em;
+        margin-top: 0.938em;
+        svg{
+            width: 1.875em;
+        }
+        p{
+            margin-left: 0.938em;
+        }
+    }
+}
+

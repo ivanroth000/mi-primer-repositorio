@@ -1,0 +1,38 @@
+.navegacion {
+    background-color: $colorSecundario;
+    text-decoration: none;
+    padding: 7px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 1;
+    img{
+        width: 200px;
+        margin-left: 15px;
+    }
+    ul {
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        li{
+            text-decoration: none;
+            font-size: $textoSm;
+            font-weight: $fontBold;
+            font-family: $fuentePrincipal;
+            margin-right: 20px;
+            a{
+                text-decoration: none;
+                color: black;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
