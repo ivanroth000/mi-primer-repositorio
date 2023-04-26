@@ -6,3 +6,9 @@
   animation-timing-function: $timingFunction;
 }
 
+.card:hover{
+  transform: translate(0,-50px);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+

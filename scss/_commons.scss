@@ -107,11 +107,6 @@ h3{
     background-color:$colorProductos;
 }
 
-.card:hover{
-    transform: translate(0,-50px);
-    transition: all 0.5s;
-    cursor: pointer;
-}
 .card-title{
      font-size: $textoLg;
 }
