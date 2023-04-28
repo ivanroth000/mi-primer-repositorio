@@ -1,9 +1,8 @@
-@mixin animation($name, $duration, $delay, $iterationCount,$timingFunction) {
+@mixin animation($name, $duration, $delay, $iterationCount) {
   animation-name: $name;
   animation-duration: $duration;
   animation-delay: $delay;
   animation-iteration-count: $iterationCount;
-  animation-timing-function: $timingFunction;
 }
 
 @mixin encabezados($family,$weight,$size,$textAlign){

@@ -1,4 +1,80 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+.card:hover {
+  transform: translate(0, -50px);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+@keyframes text {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.listaComoComprar {
+  animation: slide-in ease-in-out;
+  animation-name: text;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+}
+
+@keyframes opacidad {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  75% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.algoDulceSobreNosotros {
+  animation-name: opacidad;
+  animation-duration: 4s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+}
+
+@keyframes giro {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.mapaContainer {
+  animation-name: giro;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+}
+
+@keyframes form {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.containerForm {
+  animation-name: form;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+}
+
 .navegacion {
   background-color: #CEE4ED;
   text-decoration: none;
@@ -312,11 +388,6 @@ footer .contactoFotterUbicacion p {
     margin-left: 0;
     margin-right: 0;
   }
-}
-.card:hover {
-  transform: translate(0, -50px);
-  transition: all 0.5s;
-  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
