@@ -5,20 +5,19 @@
     cursor: pointer;
   }
   
-//animación para que la lista de la sección "cómo comprar" de desplace de izq a derecha.
-  @keyframes text {
-    0% {
-        transform: translateX(-100%);
-      }
-      100% {
-        transform: translateX(0);
-      }
+//animación para que la lista de la sección "cómo comprar" aparezca en un zoom.
+@keyframes zoom-in {
+  from {
+    transform: scale(0);
   }
-
-  .listaComoComprar{
-    animation: slide-in ease-in-out;
-    @include animation (text,2s,0s,1)
+  to {
+    transform: scale(1);
   }
+}
+.listaComoComprar{
+  animation: ease-in-out;
+  @include animation (zoom-in,1.5s,0s,1)
+}
 
 //animación que cambia la opacidad en el texte de la sección "sobre nosotros".
   @keyframes opacidad {
@@ -40,7 +39,7 @@
   }
 
   .algoDulceSobreNosotros{
-    @include animation(opacidad,4s,0s,1)
+    @include animation(opacidad,2s,0s,1)
   }
 
   //animación que traslada el mapa de la sección "contacto" de abajo hacia arriba.
@@ -55,7 +54,7 @@
 
   .mapaContainer{
     
-    @include animation(giro,2s,0s,1)
+    @include animation(giro,1.5s,0s,1)
   }
 
   //animación que traslada el formulario de izq a derecha.
@@ -68,5 +67,7 @@
       }
   }
   .containerForm{
-    @include animation(form,2s,0s,1)
+    @include animation(form,1.5s,0s,1)
 }
+
+

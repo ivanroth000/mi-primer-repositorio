@@ -5,18 +5,18 @@
   cursor: pointer;
 }
 
-@keyframes text {
-  0% {
-    transform: translateX(-100%);
+@keyframes zoom-in {
+  from {
+    transform: scale(0);
   }
-  100% {
-    transform: translateX(0);
+  to {
+    transform: scale(1);
   }
 }
 .listaComoComprar {
-  animation: slide-in ease-in-out;
-  animation-name: text;
-  animation-duration: 2s;
+  animation: ease-in-out;
+  animation-name: zoom-in;
+  animation-duration: 1.5s;
   animation-delay: 0s;
   animation-iteration-count: 1;
 }
@@ -40,7 +40,7 @@
 }
 .algoDulceSobreNosotros {
   animation-name: opacidad;
-  animation-duration: 4s;
+  animation-duration: 2s;
   animation-delay: 0s;
   animation-iteration-count: 1;
 }
@@ -55,7 +55,7 @@
 }
 .mapaContainer {
   animation-name: giro;
-  animation-duration: 2s;
+  animation-duration: 1.5s;
   animation-delay: 0s;
   animation-iteration-count: 1;
 }
@@ -70,7 +70,7 @@
 }
 .containerForm {
   animation-name: form;
-  animation-duration: 2s;
+  animation-duration: 1.5s;
   animation-delay: 0s;
   animation-iteration-count: 1;
 }
@@ -124,7 +124,8 @@ body {
 }
 
 header img {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 
 h1 {
