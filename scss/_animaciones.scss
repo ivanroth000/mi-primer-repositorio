@@ -1,14 +1,6 @@
-@mixin animation($name, $duration, $delay, $iterationCount,$timingFunction) {
-  animation-name: $name;
-  animation-duration: $duration;
-  animation-delay: $delay;
-  animation-iteration-count: $iterationCount;
-  animation-timing-function: $timingFunction;
-}
-
 .card:hover{
-  transform: translate(0,-50px);
-  transition: all 0.5s;
-  cursor: pointer;
-}
-
+    transform: translate(0,-50px);
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  

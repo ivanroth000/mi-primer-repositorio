@@ -1,3 +1,5 @@
+
+
 *{
     font-family:$fuentePrincipal;
     box-sizing: border-box;
@@ -12,26 +14,18 @@ header img{
 }
 
 h1{
-    font-family: $fuentePrincipal;
-    font-weight: $fontBold;
-    font-size: $textoXl;
-    text-align: center;
     margin-top: 20px;
-}
+    @include encabezados($fuentePrincipal,$fontBold ,$textoXl ,center )
+  }
 
 h2{
-    font-family: $fuentePrincipal;
-    font-weight: $fontRegular;
-    font-size: $textoLg;
-    text-align: center;
     margin-top: 20px;
+    @include encabezados($fuentePrincipal,$fontRegular,$textoLg,center)
 }
 
+
 h3{
-    font-family: $fuentePrincipal;
-    font-weight: $fontLight;
-    font-size: $textoMd;
-    text-align: center;
+    @include encabezados($fuentePrincipal,$fontLight,$textoMd,center)
 }
 
 .algoDulceSobreNosotros{
@@ -62,7 +56,7 @@ h3{
     grid-template-areas:
     "t7 t8 t9"
     "t10 t11 t12";
-    }
+}
     
     
 .torta7{
