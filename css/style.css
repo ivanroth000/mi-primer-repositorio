@@ -1,10 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
-.card:hover {
-  transform: translate(0, -50px);
-  transition: all 0.5s;
-  cursor: pointer;
-}
-
 .navegacion {
   background-color: #CEE4ED;
   text-decoration: none;
@@ -197,6 +191,12 @@ h3 {
   font-size: 2.188em;
   border: 2px solid black;
   padding: 10px 20px;
+}
+
+.card:hover {
+  transform: translate(0, -30px);
+  transition: all 0.5s;
+  cursor: pointer;
 }
 
 footer {
