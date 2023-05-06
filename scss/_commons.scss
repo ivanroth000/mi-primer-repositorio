@@ -129,8 +129,24 @@ h3{
     padding-left: 15px;
 }
 
-   
-
-.formularios{
+   .formularios{
     max-width: 100%;
 }
+
+.pag-error{
+    background-color: #f3e2e0;
+    .error-404{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-404{
+        width: 40%;
+    }
+    .boton-404{
+        font-size: $textoLg;
+        border: 2px solid black;
+        padding: 10px 20px;
+     }
+}
+

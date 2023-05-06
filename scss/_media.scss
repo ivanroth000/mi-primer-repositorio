@@ -32,7 +32,15 @@
       .torta12{
         margin: 0;
       }
-    
+      .pag-error{
+        .img-404{
+          width: 60%;
+      }
+      .boton-404{
+          font-size: $textoMd;
+          margin-top: 20px;
+       }
+      }
 }
 
 @media (max-width: 767px) {
@@ -95,4 +103,15 @@
         margin-left: 0;
         margin-right: 0;
       }
+      .pag-error{
+        .img-404{
+          width: 80%;
+          margin-top: 20px;
+      }
+      .boton-404{
+          font-size: $textoSm;
+          margin-top: 20px;
+       }
+      }
 }
+

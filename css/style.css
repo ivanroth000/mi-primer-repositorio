@@ -252,6 +252,23 @@ h3 {
   max-width: 100%;
 }
 
+.pag-error {
+  background-color: #f3e2e0;
+}
+.pag-error .error-404 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pag-error .img-404 {
+  width: 40%;
+}
+.pag-error .boton-404 {
+  font-size: 2.188em;
+  border: 2px solid black;
+  padding: 10px 20px;
+}
+
 footer {
   background-color: #CEE4ED;
   display: flex;
@@ -343,6 +360,13 @@ footer .contactoFotterUbicacion p {
   .torta12 {
     margin: 0;
   }
+  .pag-error .img-404 {
+    width: 60%;
+  }
+  .pag-error .boton-404 {
+    font-size: 1.688em;
+    margin-top: 20px;
+  }
 }
 @media (max-width: 767px) {
   footer {
@@ -388,6 +412,14 @@ footer .contactoFotterUbicacion p {
   .torta12 {
     margin-left: 0;
     margin-right: 0;
+  }
+  .pag-error .img-404 {
+    width: 80%;
+    margin-top: 20px;
+  }
+  .pag-error .boton-404 {
+    font-size: 1.375em;
+    margin-top: 20px;
   }
 }
 
