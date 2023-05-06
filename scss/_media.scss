@@ -41,6 +41,10 @@
           margin-top: 20px;
        }
       }
+      .card:hover{
+        transform: none;
+        cursor: pointer;
+      }
 }
 
 @media (max-width: 767px) {
@@ -112,6 +116,11 @@
           font-size: $textoSm;
           margin-top: 20px;
        }
+      }
+
+      .card:hover{
+        transform: none;
+        cursor: pointer;
       }
 }
 

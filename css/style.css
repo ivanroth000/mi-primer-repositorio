@@ -297,6 +297,10 @@ footer .contactoFotterUbicacion p {
     font-size: 1.688em;
     margin-top: 20px;
   }
+  .card:hover {
+    transform: none;
+    cursor: pointer;
+  }
 }
 @media (max-width: 767px) {
   footer {
@@ -350,6 +354,10 @@ footer .contactoFotterUbicacion p {
   .pag-error .boton-404 {
     font-size: 1.375em;
     margin-top: 20px;
+  }
+  .card:hover {
+    transform: none;
+    cursor: pointer;
   }
 }
 
