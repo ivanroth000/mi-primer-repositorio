@@ -66,12 +66,12 @@ Imagen carrusel:
 
 En el contenido de los artículos de la página de inicio utilicé las cards y el sistema de grillas de Bootstrap:
 
-[<img src="img-readme/articulos-inicio.png" alt="imagen de las cards hechas con bootstrap">](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/articulos-inicio.png)
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/articulos-inicio.png)
 
 
 En el contenido de los artículos en la página de productos usé Grid, ya que quería practicar su uso:
 
-[<img src="img-readme/articulos-productos" alt="imagen de los productos hecho con grid">](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/articulos-productos.png)
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/articulos-productos.png)
 
 
 También use media queries con Grid para hacer el diseño responsive:
@@ -86,11 +86,11 @@ En cuanto al footer sí quedó bastante fiel al diseño del wireframe:
 
 Wireframe:
 
-INSERTAR IMG DEL FOOTER WIREFRAME
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/footer-wireframe.png)
 
 Footer del sitio:
 
-INSERTAR IMG DEL FOOTER SITIO
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/footer-web.png)
 
 ## Las otras páginas y responsive
 
