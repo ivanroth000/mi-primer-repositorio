@@ -108,7 +108,7 @@ Por último, agregué una página de "error 404" a la que se accede clickeando e
 ## Frameworks
 ![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-bt.svg)
 ![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-sass.svg)
-![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-node.svg)
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-nodes.svg)
 
 ## Sistema de control de versiones
 ![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-git.svg)
