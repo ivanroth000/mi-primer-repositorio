@@ -25,7 +25,7 @@ sin embargo no tenía una página web para promocionarse mejor. Por lo tanto, ah
 regalarle un sitio web sobre su pastelería, la cual irá mejorando con los años y los nuevos conocimientos que vaya adquiriendo sobre la 
 programación.
 
-## Inicio del desarrollo del sitio
+# Inicio del desarrollo del sitio
 
 Al principio hice varios wireframes para tener una idea de por donde encarar el comienzo del sitio. El resultado final terminó siendo
 diferente a los wireframes, pero esto era algo que esperaba debido a mis pocos conocimientos en la materia a la hora de emepezar a escribir
@@ -34,3 +34,81 @@ orgulloso.
 
 ## Navbar
 
+Así era la navbar en el wireframe:
+
+INSERTAR IMG DE LA NAV WIREFRAME
+
+y así terminó quedando:
+
+INSERTAR IMG DE LA NAV DE LA PAG
+
+Para vista mobile y todo tipo de pantalla con una resolución menor a 992px le puse un menú desplegable utilizando Bootstrap:
+
+INSERTAR NAVBAR MOBILE
+
+## Cuerpo del sitio
+
+En el inicio tenía pensado agregar una imagen de header pero luego me decidí por hacer un carrusel de imágenes, que me terminó gustando
+más.
+
+Imagen del header del wireframe:
+
+INSERTAR WIREFRAME IMG HEADER
+
+Imagen carrusel:
+
+INSERTAR IMG CARRUSEL
+
+En el contenido de los artículos de la página de inicio utilicé las cards y el sistema de grillas de Bootstrap:
+
+INSERTAR IMG DE LA PAG DE INICIO
+
+En el contenido de los artículos en la página de productos usé Grid, ya que quería practicar su uso:
+
+INSERTAR IMG DE LA PAG DE PRODUCTOS
+
+También use media queries con Grid para hacer el diseño responsive:
+
+INSERTAR IMG DE LA PAG PRODUCTOS EN MOBILE Y TABLET
+
+## Footer
+
+En cuanto al footer sí quedó bastante fiel al diseño del wireframe:
+
+Wireframe:
+
+INSERTAR IMG DEL FOOTER WIREFRAME
+
+Footer del sitio:
+
+INSERTAR IMG DEL FOOTER SITIO
+
+## Las otras páginas y responsive
+
+El sitio web cuenta con otras páginas de "contacto", "sobre nosotros" y "cómo comprar". Todo el sitio web se puede ver tanto en escritorio
+como en tablet y mobile. En ciertos casos hubo que hacer unos retoques usando media queries para ajustar ciertos elementos.
+
+Por último, agregué una página de "error 404" a la que se accede clickeando en algunos de los botones de "agregar al carrito".
+
+# Lenguajes y tecnologías usados
+
+## Lenguajes
+INSERTAR IMG HTML
+INSERTAR IMG CSS
+
+## Frameworks
+INSERTAR IMG BOOTSTRAP
+INSERTAR IMG SASS
+INSERTAR IMG NODE.JS
+
+## Sistema de control de versiones
+INSERTAR IMG GIT
+INSERTAR IMG GITHUB
+
+## Links
+
+Link de Github pages:
+Link del sitio en vercel:
+Link de mi perfil de versel:
+
+Muchas gracias por leer 😊.
