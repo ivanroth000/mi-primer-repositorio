@@ -103,16 +103,16 @@ Por último, agregué una página de "error 404" a la que se accede clickeando e
 
 ## Lenguajes
 ![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-html5.svg)
-INSERTAR IMG CSS
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-css.svg)
 
 ## Frameworks
-INSERTAR IMG BOOTSTRAP
-INSERTAR IMG SASS
-INSERTAR IMG NODE.JS
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-bt.svg)
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-sass.svg)
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-node.svg)
 
 ## Sistema de control de versiones
-INSERTAR IMG GIT
-INSERTAR IMG GITHUB
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-git.svg)
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-github.svg)
 
 ## Links
 
