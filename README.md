@@ -76,7 +76,7 @@ En el contenido de los artículos en la página de productos usé Grid, ya que q
 
 También use media queries con Grid para hacer el diseño responsive:
 
-[<img src="img-readme/responsive-tablet" alt="imagen de los productos en tablet">](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/responsive-tablet.png)
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/responsive-mobile.png)
 
 ![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/responsive-tablet.png)
 
