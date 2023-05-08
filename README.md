@@ -102,7 +102,7 @@ Por último, agregué una página de "error 404" a la que se accede clickeando e
 # Lenguajes y tecnologías usados
 
 ## Lenguajes
-INSERTAR IMG HTML
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-html5.svg)
 INSERTAR IMG CSS
 
 ## Frameworks
