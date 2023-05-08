@@ -8,8 +8,8 @@ y NODE.JS. También se utilizó GIT para el uso de control de versiones y GitHub
 
 ## Sobre mí
 
-Mí pasión por la programación y el desarrollo web comenzó en 2020, en plena cuarentena, cuando descubrí varios canales en YouTubbe
-dedicados a tocar estos temas. Empecé a ver muchos videos de programación al día y una vez que descubrí las diferentes ramas que hay
+Mí pasión por la programación y el desarrollo web comenzó en 2020, en plena cuarentena, cuando descubrí varios canales en YouTube
+dedicados a tocar estos temas. Empecé a ver muchos videos de programación al día y una vez que descubrí las diferentes ramas que hay,
 me di cuenta que lo que más me gustaba era el desarrollo web. Por temas de horarios, estaba cursando la carrera de licenciatura en
 Comunicación, no pude dedicarle el tiempo que me hubiera gustado y solo realicé unos cursos gratuitos de algunos creadores de contenido.
 
@@ -18,8 +18,8 @@ llegar a ser desarrollador full stack.
 
 ## Proceso de creación
 
-La elección de hacer el sitio web sobre una pastelería se debe a que mi madre siempre tuvo pasión por la cocina (sobre todo por las cosas
-dulces) y su sueño era vender sus tortas y demás postres. En 2019 cumplió ese sueño de tener su pastelería propia pero ese sueño se vio 
+La elección de hacer el sitio web sobre una pastelería se debe a que mi madre siempre tuvo pasión por la gastronomía (sobre todo por las cosas
+dulces) y su sueño era vender sus tortas y demás postres. En 2019 cumplió ese sueño de tener su pastelería propia, pero ese sueño se vio 
 afectado por el Covid y la cuarentena. Con el cierre de su pastelería comenzó a vender sus tortas a través de su cuenta de Instagram,
 sin embargo no tenía una página web para promocionarse mejor. Por lo tanto, ahora que tengo ciertos conocimientos en el desarrollo web decidí 
 regalarle un sitio web sobre su pastelería, la cual irá mejorando con los años y los nuevos conocimientos que vaya adquiriendo sobre la 
@@ -29,7 +29,7 @@ programación.
 
 Al principio hice varios wireframes para tener una idea de por donde encarar el comienzo del sitio. El resultado final terminó siendo
 diferente a los wireframes, pero esto era algo que esperaba debido a mis pocos conocimientos en la materia a la hora de emepezar a escribir
-código. De todas formas, creo yo que el resultado final terminó siendo mejor de lo que me esperaba y eso es algo de lo que me siento
+código. De todas formas, creo que el resultado final terminó siendo mejor de lo que me esperaba y eso es algo de lo que me siento
 orgulloso.
 
 ## Navbar
@@ -84,7 +84,7 @@ También use media queries con Grid para hacer el diseño responsive:
 
 En cuanto al footer sí quedó bastante fiel al diseño del wireframe:
 
-Wireframe:
+Footer del wireframe:
 
 ![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/footer-wireframe.png)
 
@@ -97,7 +97,7 @@ Footer del sitio:
 El sitio web cuenta con otras páginas de "contacto", "sobre nosotros" y "cómo comprar". Todo el sitio web se puede ver tanto en escritorio
 como en tablet y mobile. En ciertos casos hubo que hacer unos retoques usando media queries para ajustar ciertos elementos.
 
-Por último, agregué una página de "error 404" a la que se accede clickeando en algunos de los botones de "agregar al carrito".
+Por último, agregué una página de "error 404" a la que se accede clickeando en los botones de "agregar al carrito".
 
 # Lenguajes y tecnologías usados
 
