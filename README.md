@@ -112,7 +112,7 @@ Por último, agregué una página de "error 404" a la que se accede clickeando e
 
 ## Sistema de control de versiones
 ![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-git.svg)
-![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/git-hub.svg)
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/git-hub.png)
 
 ## Links
 
