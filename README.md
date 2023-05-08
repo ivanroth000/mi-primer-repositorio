@@ -36,7 +36,7 @@ orgulloso.
 
 Así era la navbar en el wireframe:
 
-<img src="img-readme/captura-navbar.png" alt="navbar del wireframe">
+[<img src="img-readme/captura-navbar.png" alt="navbar del wireframe">](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/captura-navbar.png)
 
 
 y así terminó quedando:
