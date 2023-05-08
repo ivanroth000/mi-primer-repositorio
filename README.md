@@ -36,15 +36,18 @@ orgulloso.
 
 Así era la navbar en el wireframe:
 
-INSERTAR IMG DE LA NAV WIREFRAME
+<img src="img-readme/captura-navbar.png" alt="navbar del wireframe">
+
 
 y así terminó quedando:
 
-INSERTAR IMG DE LA NAV DE LA PAG
+<img src="img-readme/navbar-sitio.png" alt="navbar del sitio web">
+
 
 Para vista mobile y todo tipo de pantalla con una resolución menor a 992px le puse un menú desplegable utilizando Bootstrap:
 
-INSERTAR NAVBAR MOBILE
+<img src="img-readme/navbar-mobile.png" alt="navbar en mobile">
+
 
 ## Cuerpo del sitio
 
@@ -53,19 +56,23 @@ más.
 
 Imagen del header del wireframe:
 
-INSERTAR WIREFRAME IMG HEADER
+<img src="img-readme/header-wireframe.png" alt="header del wireframe">
+
 
 Imagen carrusel:
 
-INSERTAR IMG CARRUSEL
+<img src="img-readme/header-carrusel.png" alt="carrusel del header del sitio web">
+
 
 En el contenido de los artículos de la página de inicio utilicé las cards y el sistema de grillas de Bootstrap:
 
-INSERTAR IMG DE LA PAG DE INICIO
+<img src="img-readme/articulos-inicio.png" alt="imagen de las cards hechas con bootstrap">
+
 
 En el contenido de los artículos en la página de productos usé Grid, ya que quería practicar su uso:
 
-INSERTAR IMG DE LA PAG DE PRODUCTOS
+<img src="img-readme/articulos-productos" alt="imagen de los productos hecho con grid">
+
 
 También use media queries con Grid para hacer el diseño responsive:
 
