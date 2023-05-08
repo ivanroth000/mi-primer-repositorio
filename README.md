@@ -36,17 +36,17 @@ orgulloso.
 
 Así era la navbar en el wireframe:
 
-<img src="img-readme/captura-navbar.png" alt="navbar del wireframe">
+[<img src="img-readme/captura-navbar.png" alt="navbar del wireframe">](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/captura-navbar.png)
 
 
 y así terminó quedando:
 
-<img src="img-readme/navbar-sitio.png" alt="navbar del sitio web">
+[<img src="img-readme/navbar-sitio.png" alt="navbar del sitio web">](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/navbar-sitio.png)
 
 
 Para vista mobile y todo tipo de pantalla con una resolución menor a 992px le puse un menú desplegable utilizando Bootstrap:
 
-<img src="img-readme/navbar-mobile.png" alt="navbar en mobile">
+[<img src="img-readme/navbar-mobile.png" alt="navbar en mobile">](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/navbar-mobile.png)
 
 
 ## Cuerpo del sitio
@@ -56,29 +56,29 @@ más.
 
 Imagen del header del wireframe:
 
-<img src="img-readme/header-wireframe.png" alt="header del wireframe">
+[<img src="img-readme/header-wireframe.png" alt="header del wireframe">](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/header-wireframe.png)
 
 
 Imagen carrusel:
 
-<img src="img-readme/header-carrusel.png" alt="carrusel del header del sitio web">
+[<img src="img-readme/header-carrusel.png" alt="carrusel del header del sitio web">](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/header-carrusel.png)
 
 
 En el contenido de los artículos de la página de inicio utilicé las cards y el sistema de grillas de Bootstrap:
 
-<img src="img-readme/articulos-inicio.png" alt="imagen de las cards hechas con bootstrap">
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/articulos-inicio.png)
 
 
 En el contenido de los artículos en la página de productos usé Grid, ya que quería practicar su uso:
 
-<img src="img-readme/articulos-productos.png" alt="imagen de los productos hecho con grid">
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/articulos-productos.png)
 
 
 También use media queries con Grid para hacer el diseño responsive:
 
-<img src="img-readme/responsive-tablet.png" alt="imagen de los productos en tablet">
-<img src="img-readme/responsive-mobile.png" alt="imagen de los productos en mobile">
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/responsive-mobile.png)
 
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/responsive-tablet.png)
 
 ## Footer
 
@@ -86,13 +86,11 @@ En cuanto al footer sí quedó bastante fiel al diseño del wireframe:
 
 Wireframe:
 
-<img src="img-readme/footer-wireframe.png" alt="imagen del footer en el wireframe">
-
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/footer-wireframe.png)
 
 Footer del sitio:
 
-<img src="img-readme/footer-web.png" alt="imagen del footer en el sitio web">
-
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/footer-web.png)
 
 ## Las otras páginas y responsive
 
@@ -104,17 +102,17 @@ Por último, agregué una página de "error 404" a la que se accede clickeando e
 # Lenguajes y tecnologías usados
 
 ## Lenguajes
-INSERTAR IMG HTML
-INSERTAR IMG CSS
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-html5.svg)
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-css.svg)
 
 ## Frameworks
-INSERTAR IMG BOOTSTRAP
-INSERTAR IMG SASS
-INSERTAR IMG NODE.JS
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-bt.svg)
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-sass.svg)
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-nodes.svg)
 
 ## Sistema de control de versiones
-INSERTAR IMG GIT
-INSERTAR IMG GITHUB
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-git.svg)
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/git-hub.png)
 
 ## Links
 
