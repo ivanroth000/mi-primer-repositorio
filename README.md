@@ -78,7 +78,7 @@ También use media queries con Grid para hacer el diseño responsive:
 
 [<img src="img-readme/responsive-tablet" alt="imagen de los productos en tablet">](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/responsive-tablet.png)
 
-[<img src="img-readme/responsive-mobile" alt="imagen de los productos en mobile">](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/responsive-mobile.png)
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/responsive-tablet.png)
 
 ## Footer
 
