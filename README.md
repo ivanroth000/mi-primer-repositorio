@@ -71,12 +71,14 @@ En el contenido de los artículos de la página de inicio utilicé las cards y e
 
 En el contenido de los artículos en la página de productos usé Grid, ya que quería practicar su uso:
 
-<img src="img-readme/articulos-productos" alt="imagen de los productos hecho con grid">
+<img src="img-readme/articulos-productos.png" alt="imagen de los productos hecho con grid">
 
 
 También use media queries con Grid para hacer el diseño responsive:
 
-INSERTAR IMG DE LA PAG PRODUCTOS EN MOBILE Y TABLET
+<img src="img-readme/responsive-tablet.png" alt="imagen de los productos en tablet">
+<img src="img-readme/responsive-mobile.png" alt="imagen de los productos en mobile">
+
 
 ## Footer
 
@@ -84,11 +86,13 @@ En cuanto al footer sí quedó bastante fiel al diseño del wireframe:
 
 Wireframe:
 
-INSERTAR IMG DEL FOOTER WIREFRAME
+<img src="img-readme/footer-wireframe.png" alt="imagen del footer en el wireframe">
+
 
 Footer del sitio:
 
-INSERTAR IMG DEL FOOTER SITIO
+<img src="img-readme/footer-web.png" alt="imagen del footer en el sitio web">
+
 
 ## Las otras páginas y responsive
 
