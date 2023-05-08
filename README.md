@@ -41,12 +41,12 @@ Así era la navbar en el wireframe:
 
 y así terminó quedando:
 
-<img src="img-readme/navbar-sitio.png" alt="navbar del sitio web">
+[<img src="img-readme/navbar-sitio.png" alt="navbar del sitio web">](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/navbar-sitio.png)
 
 
 Para vista mobile y todo tipo de pantalla con una resolución menor a 992px le puse un menú desplegable utilizando Bootstrap:
 
-<img src="img-readme/navbar-mobile.png" alt="navbar en mobile">
+[<img src="img-readme/navbar-mobile.png" alt="navbar en mobile">](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/navbar-mobile.png)
 
 
 ## Cuerpo del sitio
@@ -56,27 +56,29 @@ más.
 
 Imagen del header del wireframe:
 
-<img src="img-readme/header-wireframe.png" alt="header del wireframe">
+[<img src="img-readme/header-wireframe.png" alt="header del wireframe">](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/header-wireframe.png)
 
 
 Imagen carrusel:
 
-<img src="img-readme/header-carrusel.png" alt="carrusel del header del sitio web">
+[<img src="img-readme/header-carrusel.png" alt="carrusel del header del sitio web">](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/header-carrusel.png)
 
 
 En el contenido de los artículos de la página de inicio utilicé las cards y el sistema de grillas de Bootstrap:
 
-<img src="img-readme/articulos-inicio.png" alt="imagen de las cards hechas con bootstrap">
+[<img src="img-readme/articulos-inicio.png" alt="imagen de las cards hechas con bootstrap">](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/articulos-inicio.png)
 
 
 En el contenido de los artículos en la página de productos usé Grid, ya que quería practicar su uso:
 
-<img src="img-readme/articulos-productos" alt="imagen de los productos hecho con grid">
+[<img src="img-readme/articulos-productos" alt="imagen de los productos hecho con grid">](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/articulos-productos.png)
 
 
 También use media queries con Grid para hacer el diseño responsive:
 
-INSERTAR IMG DE LA PAG PRODUCTOS EN MOBILE Y TABLET
+[<img src="img-readme/responsive-tablet" alt="imagen de los productos en tablet">](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/responsive-tablet.png)
+
+[<img src="img-readme/responsive-mobile" alt="imagen de los productos en mobile">](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/responsive-mobile.png)
 
 ## Footer
 
