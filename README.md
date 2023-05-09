@@ -116,8 +116,11 @@ Por último, agregué una página de "error 404" a la que se accede clickeando e
 
 ## Links
 
-Link del deployment de Github pages: https://ivanroth000.github.io/mi-primer-repositorio/
-Link de mi dominio en vercel: https://algodulce.vercel.app/
-Link deployment de versel: algodulce-3jjpwjjtj-ivanroth000.vercel.app
+Link del deployment de Github pages:
+https://ivanroth000.github.io/mi-primer-repositorio/
+
+Link de mi dominio en vercel:
+https://algodulce.vercel.app/
+
 
 Muchas gracias por leer 😊.
