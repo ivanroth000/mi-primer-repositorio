@@ -45,6 +45,15 @@
         transform: none;
         cursor: pointer;
       }
+      
+      .navbar-toggler{
+          background-color:$colorSecundario;
+          border: 2px solid black; 
+          border-radius: 4px;
+          }
+      
+      
+      
 }
 
 @media (max-width: 767px) {
@@ -122,5 +131,11 @@
         transform: none;
         cursor: pointer;
       }
+
+      .navbar-toggler{
+        background-color:$colorSecundario;
+        border: 2px solid black; 
+        border-radius: 4px;
+        }
 }
 

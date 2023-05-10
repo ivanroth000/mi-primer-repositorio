@@ -41,12 +41,12 @@ Así era la navbar en el wireframe:
 
 y así terminó quedando:
 
-[<img src="img-readme/navbar-sitio.png" alt="navbar del sitio web">](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/navbar-sitio.png)
+[<img src="img-readme/navbar-nueva.png" alt="navbar del sitio web">](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/navbar-sitio.png)
 
 
 Para vista mobile y todo tipo de pantalla con una resolución menor a 992px le puse un menú desplegable utilizando Bootstrap:
 
-[<img src="img-readme/navbar-mobile.png" alt="navbar en mobile">](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/navbar-mobile.png)
+[<img src="img-readme/navbar-mobile-nueva.png" alt="navbar en mobile">](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/navbar-mobile.png)
 
 
 ## Cuerpo del sitio
@@ -61,7 +61,7 @@ Imagen del header del wireframe:
 
 Imagen carrusel:
 
-[<img src="img-readme/header-carrusel.png" alt="carrusel del header del sitio web">](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/header-carrusel.png)
+[<img src="img-readme/img-carrusel-nueva.png" alt="carrusel del header del sitio web">](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/header-carrusel.png)
 
 
 En el contenido de los artículos de la página de inicio utilicé las cards y el sistema de grillas de Bootstrap:
@@ -76,9 +76,9 @@ En el contenido de los artículos en la página de productos usé Grid, ya que q
 
 También use media queries con Grid para hacer el diseño responsive:
 
-![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/responsive-mobile.png)
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/responsive-mobile-nueva.png)
 
-![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/responsive-tablet.png)
+![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/responsive-mobile-nuevas.png)
 
 ## Footer
 

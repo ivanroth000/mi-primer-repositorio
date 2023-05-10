@@ -301,6 +301,11 @@ footer .contactoFotterUbicacion p {
     transform: none;
     cursor: pointer;
   }
+  .navbar-toggler {
+    background-color: #CEE4ED;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
 }
 @media (max-width: 767px) {
   footer {
@@ -358,6 +363,11 @@ footer .contactoFotterUbicacion p {
   .card:hover {
     transform: none;
     cursor: pointer;
+  }
+  .navbar-toggler {
+    background-color: #CEE4ED;
+    border: 2px solid black;
+    border-radius: 4px;
   }
 }
 
