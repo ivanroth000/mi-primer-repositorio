@@ -105,7 +105,7 @@ Por último, agregué una página de "error 404" a la que se accede clickeando e
 ![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-html5.svg)
 ![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-css.svg)
 
-## Frameworks
+## Otras tecnologias
 ![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-bt.svg)
 ![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-sass.svg)
 ![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-nodes.svg)
