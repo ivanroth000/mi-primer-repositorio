@@ -82,14 +82,36 @@ const productos = [
         precio: 2400,
         img: "productos/torta-10.jpg",
     },
+
+    {
+        id: 13,
+        nombre: "Brownie de chocolate", 
+        precio: 2200,
+        img: "productos/torta-11.jpg",
+    },
+
+    {
+        id: 14,
+        nombre: "Torta Cookie", 
+        precio: 2300,
+        img:"productos/torta-12.jpg",
+    },
 ]
 
 let carrito = []
 
 let botonAgregarAlCarrito = document.querySelectorAll('.agregarAlCarrito')
 
-botonAgregarAlCarrito.forEach(boton => {
+botonAgregarAlCarrito.forEach((boton) => {
     boton.onclick = () => {
-      alert('Producto agregado al carrito');
+        const productId = boton.getAttribute('id');
+        const producto = productos.find(p => p.id === parseInt(productId));
+      carrito.push({
+        id: producto.id,
+        img: producto.img,
+        nombre: producto.nombre,
+        precio: producto.precio,
+      });
+      console.log(carrito);
     };
   });
