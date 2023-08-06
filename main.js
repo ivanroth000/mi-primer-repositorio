@@ -68,7 +68,7 @@ const productos = [
         precio: 2700,
         img: "productos/torta-8.jpg",
     },
-
+    
     {
         id: 11,
         nombre: "Red velvet", 
@@ -99,8 +99,9 @@ const productos = [
 ]
 
 let carrito = []
-
 let botonAgregarAlCarrito = document.querySelectorAll('.agregarAlCarrito')
+let verCarrito = document.getElementById("carrito-de-compras")
+let contenidoCarritoHeader = document.getElementById('contenido-carrito-header')
 
 botonAgregarAlCarrito.forEach((boton) => {
     boton.onclick = () => {
@@ -115,3 +116,41 @@ botonAgregarAlCarrito.forEach((boton) => {
       console.log(carrito);
     };
   });
+
+verCarrito.onclick = (e) =>{
+    e.preventDefault()
+    contenidoCarritoHeader.innerHTML = ''
+    contenidoCarritoHeader.style.display = 'block'
+    const productosEnCarrito = document.createElement('div')
+    productosEnCarrito.className = 'modal-header'
+    productosEnCarrito.innerHTML = `<h1 class='modal-header-title'>Carrito</h1>`
+    contenidoCarritoHeader.append(productosEnCarrito)
+
+    const btnCerrarCarrito = document.createElement('h1')
+    btnCerrarCarrito.innerText = `x`
+    btnCerrarCarrito.className = 'modal-header-button'
+    productosEnCarrito.append(btnCerrarCarrito)
+
+    btnCerrarCarrito.onclick = ()=>{
+        contenidoCarritoHeader.style.display = 'none'
+    }
+
+    carrito.forEach((producto) => {
+        const carritoContenido = document.createElement('div')
+        carritoContenido.className = 'modal-content'
+        carritoContenido.innerHTML = `
+        <img  src='${producto.img}' style='height: 150px; width: 150px;'>
+        <h3 class='h3'> ${producto.nombre}</h3>
+        <p class='h3'> $${producto.precio} </p>
+        `
+        contenidoCarritoHeader.append(carritoContenido)
+    })
+
+    const total = carrito.reduce((acumulador, p) => acumulador + p.precio, 0)
+    const totalCarrito = document.createElement('div')
+    totalCarrito.className = 'total-content'
+    totalCarrito.innerHTML = `Total a pagar: $${total}`
+    contenidoCarritoHeader.append(totalCarrito)
+    
+
+}
