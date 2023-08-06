@@ -123,7 +123,7 @@ verCarrito.onclick = (e) =>{
     contenidoCarritoHeader.style.display = 'block'
     const productosEnCarrito = document.createElement('div')
     productosEnCarrito.className = 'modal-header'
-    productosEnCarrito.innerHTML = `<h1 class='modal-header-title'>Carrito</h1>`
+    productosEnCarrito.innerHTML = `<h1 class='modal-header-title'>Carrito 🛒</h1>`
     contenidoCarritoHeader.append(productosEnCarrito)
 
     const btnCerrarCarrito = document.createElement('h1')
@@ -140,8 +140,8 @@ verCarrito.onclick = (e) =>{
         carritoContenido.className = 'modal-content'
         carritoContenido.innerHTML = `
         <img  src='${producto.img}' style='height: 150px; width: 150px;'>
-        <h3 class='h3'> ${producto.nombre}</h3>
-        <p class='h3'> $${producto.precio} </p>
+        <h3 class='h3 '> ${producto.nombre}</h3>
+        <p class='h4'> $${producto.precio} </p>
         `
         contenidoCarritoHeader.append(carritoContenido)
     })
