@@ -105,6 +105,19 @@ let contenidoCarritoHeader = document.getElementById('contenido-carrito-header')
 
 botonAgregarAlCarrito.forEach((boton) => {
     boton.onclick = () => {
+        Toastify({
+
+            text: "Producto agregado al carrito",
+            gravity: "top",
+            position: "center",
+            stopOnFocus: true,
+            duration: 1500,
+            style: {
+                background: "#8e59f1",
+            },
+            
+            
+        }).showToast();
         const productId = boton.getAttribute('id');
         const producto = productos.find(p => p.id === parseInt(productId));
       carrito.push({
@@ -154,3 +167,5 @@ verCarrito.onclick = (e) =>{
     
 
 }
+
+
