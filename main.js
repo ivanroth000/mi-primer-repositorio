@@ -4,6 +4,7 @@ const productos = [
         nombre: 'Budín hamburgues',
         precio: 3500,
         img: "productos/torta-1.jpg",
+        cantidad: 1,
     },
 
     {
@@ -11,6 +12,7 @@ const productos = [
         nombre: "Lemon pie",
         precio: 3300,
         img: "productos/torta-2.jpg",
+        cantidad: 1,
     },
 
     {
@@ -18,6 +20,7 @@ const productos = [
         nombre: "Black-out",
         precio: 4200,
         img: "productos/torta-3.jpg",
+        cantidad: 1,
     },
 
     {
@@ -25,6 +28,7 @@ const productos = [
         nombre: "Selva negra",
         precio: 4200,
         img: "productos/selva-negra.jpg",
+        cantidad: 1,
     },
 
     {
@@ -32,6 +36,7 @@ const productos = [
         nombre: "Rogel",
         precio: 3100,
         img: "productos/torta-4.jpg",
+        cantidad: 1,
     },
 
     {
@@ -39,6 +44,7 @@ const productos = [
         nombre: "Brownie de chocolate",
         precio: 2200,
         img: "productos/torta-5.jpg",
+        cantidad: 1,
     },
 
     {
@@ -46,6 +52,7 @@ const productos = [
         nombre: "Marquise de chocolate",
         precio: 2500,
         img: "productos/torta-6.jpg",
+        cantidad: 1,
     },
 
     {
@@ -53,6 +60,7 @@ const productos = [
         nombre: "Tarta de coco con dulce de leche",
         precio: 2400,
         img: "productos/tarta-coco.webp",
+        cantidad: 1,
     },
 
     {
@@ -60,6 +68,7 @@ const productos = [
         nombre: "Torta Oreo",
         precio: 3100,
         img: "productos/torta-7.jpg",
+        cantidad: 1,
     },
 
     {
@@ -67,13 +76,15 @@ const productos = [
         nombre: "Cheesecake de dulce de leche", 
         precio: 2700,
         img: "productos/torta-8.jpg",
+        cantidad: 1,
     },
     
     {
         id: 11,
         nombre: "Red velvet", 
         precio: 2600,
-        img: "productos/torta-9.jpg"
+        img: "productos/torta-9.jpg",
+        cantidad: 1,
     },
 
     {
@@ -81,6 +92,7 @@ const productos = [
         nombre: "Torta festiva", 
         precio: 2400,
         img: "productos/torta-10.jpg",
+        cantidad: 1,
     },
 
     {
@@ -88,6 +100,7 @@ const productos = [
         nombre: "Brownie de chocolate", 
         precio: 2200,
         img: "productos/torta-11.jpg",
+        cantidad: 1,
     },
 
     {
@@ -95,6 +108,7 @@ const productos = [
         nombre: "Torta Cookie", 
         precio: 2300,
         img:"productos/torta-12.jpg",
+        cantidad: 1,
     },
 ]
 
@@ -106,7 +120,6 @@ let contenidoCarritoHeader = document.getElementById('contenido-carrito-header')
 botonAgregarAlCarrito.forEach((boton) => {
     boton.onclick = () => {
         Toastify({
-
             text: "Producto agregado al carrito",
             gravity: "top",
             position: "center",
@@ -115,23 +128,35 @@ botonAgregarAlCarrito.forEach((boton) => {
             style: {
                 background: "#8e59f1",
             },
-            
-            
         }).showToast();
         const productId = boton.getAttribute('id');
         const producto = productos.find(p => p.id === parseInt(productId));
+        
+        const repetido = carrito.some((productoRepetido)=> productoRepetido.id === producto.id)
+
+        if(repetido){
+            carrito.map((product)=>{
+                if(product.id === producto.id){
+                    product.cantidad++
+                }
+            })
+        }else{
+
       carrito.push({
         id: producto.id,
         img: producto.img,
         nombre: producto.nombre,
         precio: producto.precio,
+        cantidad: producto.cantidad,
       });
-      console.log(carrito);
+        }
+      
     };
   });
 
-verCarrito.onclick = (e) =>{
-    e.preventDefault()
+const completarCarrito = () =>{
+
+    
     contenidoCarritoHeader.innerHTML = ''
     contenidoCarritoHeader.style.display = 'block'
     const productosEnCarrito = document.createElement('div')
@@ -154,12 +179,23 @@ verCarrito.onclick = (e) =>{
         carritoContenido.innerHTML = `
         <img  src='${producto.img}' style='height: 150px; width: 150px;'>
         <h3 class='h3 '> ${producto.nombre}</h3>
-        <p class='h4'> $${producto.precio} </p>
+        <p class='h4'> $${producto.precio * producto.cantidad} </p>
+        <p class='h5'> Cantidad: ${producto.cantidad}</p>
         `
         contenidoCarritoHeader.append(carritoContenido)
+
+        let btnEliminar = document.createElement('img')
+        btnEliminar.src = "imagenes/basura.png"
+        btnEliminar.alt = 'Botón de basura para eliminar los productos del carrito'
+        btnEliminar.style.width = '40px'
+        btnEliminar.style.cursor = 'pointer'
+        carritoContenido.append(btnEliminar)
+
+
+        btnEliminar.addEventListener('click',eliminarProducto);
     })
 
-    const total = carrito.reduce((acumulador, p) => acumulador + p.precio, 0)
+    const total = carrito.reduce((acumulador, p) => acumulador + p.precio * p.cantidad, 0)
     const totalCarrito = document.createElement('div')
     totalCarrito.className = 'total-content'
     totalCarrito.innerHTML = `Total a pagar: $${total}`
@@ -168,4 +204,18 @@ verCarrito.onclick = (e) =>{
 
 }
 
+verCarrito.addEventListener('click', function(event) {
+    event.preventDefault();
+    completarCarrito();
+});
+
+const eliminarProducto = () => {
+   const encontrarId = carrito.find((elemento) => elemento.id)
+
+   carrito = carrito.filter((carritoId) => {
+    return carritoId !== encontrarId;
+   })
+
+   completarCarrito()
+}
 

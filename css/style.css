@@ -373,6 +373,7 @@ footer .contactoFotterUbicacion p {
 
 #carrito-de-compras{
   width: 40px;
+  cursor: pointer;
 }
 
 
@@ -387,7 +388,7 @@ footer .contactoFotterUbicacion p {
 }
 
 .modal-container{
-  width: 40%;
+  width: 45%;
   right: 0%;
   max-height: 80vh;
   color: #000000;
