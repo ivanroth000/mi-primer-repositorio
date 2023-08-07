@@ -444,4 +444,17 @@ footer .contactoFotterUbicacion p {
 }
 
 
+.cantidad-carrito{
+  background-color: #8e59f1;
+  color: black;
+  border-radius: 100%;
+  font-size: 13px;
+  padding: 6px;
+  top: 20px;
+  right: 25px;
+  position: absolute;
+  display: none;
+}
+
+
 /*# sourceMappingURL=style.css.map */

@@ -116,6 +116,7 @@ let carrito = []
 let botonAgregarAlCarrito = document.querySelectorAll('.agregarAlCarrito')
 let verCarrito = document.getElementById("carrito-de-compras")
 let contenidoCarritoHeader = document.getElementById('contenido-carrito-header')
+let cantidadCarrito = document.getElementById('cantidadCarrito')
 
 botonAgregarAlCarrito.forEach((boton) => {
     boton.onclick = () => {
@@ -150,7 +151,7 @@ botonAgregarAlCarrito.forEach((boton) => {
         cantidad: producto.cantidad,
       });
         }
-      
+        carritoContador()
     };
   });
 
@@ -216,6 +217,11 @@ const eliminarProducto = () => {
     return carritoId !== encontrarId;
    })
 
+   carritoContador()
    completarCarrito()
 }
 
+const carritoContador = () =>{
+    cantidadCarrito.style.display = 'block'
+    cantidadCarrito.innerText = carrito.length
+}
