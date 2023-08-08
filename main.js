@@ -182,15 +182,35 @@ const completarCarrito = () =>{
         <img  src='${producto.img}' style='height: 150px; width: 150px;'>
         <h3 class='h3 '> ${producto.nombre}</h3>
         <p class='h4'> $${producto.precio * producto.cantidad} </p>
+        <span class='restar'> - </span>
         <p class='h5'> Cantidad: ${producto.cantidad}</p>
+        <span class='sumar'> + </span>
         `
         contenidoCarritoHeader.append(carritoContenido)
+
+        let restar = carritoContenido.querySelector('.restar')
+        restar.addEventListener('click', () => {
+            if(producto.cantidad != 1){
+            producto.cantidad--
+            }
+            guardarLocal()
+            completarCarrito()
+        })
+
+        let sumar = carritoContenido.querySelector('.sumar')
+        sumar.addEventListener('click', () => {
+            
+            producto.cantidad++
+            guardarLocal()
+            completarCarrito()
+        })
 
         let btnEliminar = document.createElement('img')
         btnEliminar.src = "imagenes/basura.png"
         btnEliminar.alt = 'Botón de basura para eliminar los productos del carrito'
         btnEliminar.style.width = '40px'
         btnEliminar.style.cursor = 'pointer'
+        btnEliminar.setAttribute('data-product-id', producto.id);
         carritoContenido.append(btnEliminar)
 
 
@@ -211,12 +231,13 @@ verCarrito.addEventListener('click', function(event) {
     completarCarrito();
 });
 
-const eliminarProducto = () => {
-   const encontrarId = carrito.find((elemento) => elemento.id)
+const eliminarProducto = (event) => {
+    const productoId = parseInt(event.target.dataset.productId);
+   
 
-   carrito = carrito.filter((carritoId) => {
-    return carritoId !== encontrarId;
-   })
+   carrito = carrito.filter((producto) => {
+    return producto.id !== productoId;
+ });
 
    carritoContador()
    guardarLocal()

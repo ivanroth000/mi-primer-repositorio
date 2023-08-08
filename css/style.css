@@ -456,5 +456,10 @@ footer .contactoFotterUbicacion p {
   display: none;
 }
 
+.restar, .sumar{
+  cursor: pointer;
+  font-size: 50px;
+}
+
 
 /*# sourceMappingURL=style.css.map */
