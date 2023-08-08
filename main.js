@@ -112,7 +112,7 @@ const productos = [
     },
 ]
 
-let carrito = []
+let carrito = JSON.parse(localStorage.getItem('carrito')) || []
 let botonAgregarAlCarrito = document.querySelectorAll('.agregarAlCarrito')
 let verCarrito = document.getElementById("carrito-de-compras")
 let contenidoCarritoHeader = document.getElementById('contenido-carrito-header')
@@ -152,6 +152,7 @@ botonAgregarAlCarrito.forEach((boton) => {
       });
         }
         carritoContador()
+        guardarLocal()
     };
   });
 
@@ -218,10 +219,18 @@ const eliminarProducto = () => {
    })
 
    carritoContador()
+   guardarLocal()
    completarCarrito()
 }
 
 const carritoContador = () =>{
     cantidadCarrito.style.display = 'block'
-    cantidadCarrito.innerText = carrito.length
+    const carritoLength = carrito.length
+    localStorage.setItem('carritoLength', JSON.stringify(carritoLength))
+    cantidadCarrito.innerText = JSON.parse(localStorage.getItem('carritoLength'))
+}
+carritoContador()
+
+const guardarLocal = () => {
+    localStorage.setItem('carrito', JSON.stringify(carrito))
 }
