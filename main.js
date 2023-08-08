@@ -255,3 +255,71 @@ carritoContador()
 const guardarLocal = () => {
     localStorage.setItem('carrito', JSON.stringify(carrito))
 }
+
+
+
+//Formulario
+
+let formularioContacto = document.querySelector('.formulario-contacto')
+let btnEnviar = document.querySelector('.btn-enviar')
+let btnCancelar = document.querySelector('.btn-cancelar')
+let emailFormulario = document.querySelector('.email-form')
+let comentarioFormulario = document.querySelector('.comentario-form')
+
+btnEnviar.onclick = (e) => {
+    e.preventDefault()
+    let esValido = true;
+
+    emailFormulario.classList.remove('error');
+    comentarioFormulario.classList.remove('error');
+
+    document.getElementById('msjErrorEmail').innerHTML = '';
+    document.getElementById('msjErrorComentario').innerHTML = '';
+    
+    if(emailFormulario.value === ''){
+        esValido = false;
+        emailFormulario.classList.add('error');
+        let msjErrorEmail = document.getElementById('msjErrorEmail')
+        msjErrorEmail.innerHTML = '<h5> El campo no puede estar vacío </h5>'
+
+    }
+
+    if(comentarioFormulario.value === ''){
+        esValido = false;
+        comentarioFormulario.classList.add('error');
+        let msjErrorComentario = document.getElementById('msjErrorComentario')
+        msjErrorComentario.innerHTML = '<h5> El campo no puede estar vacío </h5>'
+
+    }
+
+    if(esValido){
+        swal({
+            title: "¡Comentario enviado!",
+            text: "Gracias por comunicarte con nosotros",
+            icon: "success",
+            backdrop: "#8163b9",
+            buttons: {
+                confirm: {
+                  text: "ok",
+                  className: "btn-alert-form",
+                },
+            }
+            
+        });
+        limpiarForm()
+    }
+}
+
+function limpiarForm (){
+    emailFormulario.value = '';
+    comentarioFormulario.value = '';
+    emailFormulario.classList.remove('error');
+    comentarioFormulario.classList.remove('error');
+    document.getElementById('msjErrorEmail').innerHTML = '';
+    document.getElementById('msjErrorComentario').innerHTML = '';
+}
+
+btnCancelar.onclick = (e) => {
+    e.preventDefault()
+    limpiarForm()
+}

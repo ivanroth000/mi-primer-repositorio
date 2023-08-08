@@ -462,4 +462,20 @@ footer .contactoFotterUbicacion p {
 }
 
 
+.oculto{
+  display: none;
+}
+.error{
+  border: 2px solid red;
+}
+.divError{
+  color: rgb(189, 41, 41);
+}
+.btn-alert-form{
+  background-color: #8163b9;
+}
+.btn-alert-form:hover{
+  background-color: #371870;;
+}
+
 /*# sourceMappingURL=style.css.map */
