@@ -175,6 +175,8 @@ const completarCarrito = () =>{
         contenidoCarritoHeader.style.display = 'none'
     }
 
+
+
     carrito.forEach((producto) => {
         const carritoContenido = document.createElement('div')
         carritoContenido.className = 'modal-content'
@@ -208,7 +210,7 @@ const completarCarrito = () =>{
         let btnEliminar = document.createElement('img')
         btnEliminar.src = "imagenes/basura.png"
         btnEliminar.alt = 'Botón de basura para eliminar los productos del carrito'
-        btnEliminar.style.width = '40px'
+        btnEliminar.style.width = '30px'
         btnEliminar.style.cursor = 'pointer'
         btnEliminar.setAttribute('data-product-id', producto.id);
         carritoContenido.append(btnEliminar)
@@ -256,7 +258,31 @@ const guardarLocal = () => {
     localStorage.setItem('carrito', JSON.stringify(carrito))
 }
 
+//comentarios
+let seccionComentarios = document.querySelector('.seccion-comentarios');
 
+async function obtenerComentarios() {
+    try {
+        const respuesta = await fetch('https://jsonplaceholder.typicode.com/comments');
+        const data = await respuesta.json();
+
+        // Itera solo los primeros 5 comentarios
+        for (let i = 0; i < 5; i++) {
+            const post = data[i];
+            let contenedor = document.createElement('div');
+            contenedor.innerHTML = `
+            <h3>${post.name}</h3>
+            <p>${post.body}</p>
+            `;
+            contenedor.className = 'card card-body my-3';
+            seccionComentarios.append(contenedor);
+        }
+    } catch (error) {
+        console.error('Error al obtener los comentarios:', error);
+    }
+}
+
+obtenerComentarios();
 
 //Formulario
 
@@ -310,6 +336,7 @@ btnEnviar.onclick = (e) => {
     }
 }
 
+
 function limpiarForm (){
     emailFormulario.value = '';
     comentarioFormulario.value = '';
@@ -323,3 +350,5 @@ btnCancelar.onclick = (e) => {
     e.preventDefault()
     limpiarForm()
 }
+
+

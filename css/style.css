@@ -194,10 +194,9 @@ h3 {
 }
 
 .card:hover {
-  transform: translate(0, -30px);
-  transition: all 0.5s;
   cursor: pointer;
 }
+
 
 footer {
   background-color: #CEE4ED;
