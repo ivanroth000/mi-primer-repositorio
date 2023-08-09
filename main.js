@@ -325,7 +325,7 @@ btnEnviar.onclick = (e) => {
 
     if(esValido){
         swal({
-            title: "¡Comentario enviado!",
+            title: "¡Mensaje enviado!",
             text: "Gracias por comunicarte con nosotros",
             icon: "success",
             backdrop: "#8163b9",
