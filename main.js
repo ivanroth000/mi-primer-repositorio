@@ -271,10 +271,10 @@ async function obtenerComentarios() {
             const post = data[i];
             let contenedor = document.createElement('div');
             contenedor.innerHTML = `
-            <h3>${post.name}</h3>
-            <p>${post.body}</p>
+            <h3 class='text-center'>${post.name}</h3>
+            <p class='text-center'>${post.body}</p>
             `;
-            contenedor.className = 'card card-body my-3';
+            contenedor.className = 'card card-body my-3 col-sm-12 col-md-6 col-lg-6 comentario-card';
             seccionComentarios.append(contenedor);
         }
     } catch (error) {

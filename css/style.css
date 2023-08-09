@@ -476,5 +476,8 @@ footer .contactoFotterUbicacion p {
 .btn-alert-form:hover{
   background-color: #371870;;
 }
-
+.comentario-card{
+    margin-left: auto;
+    margin-right: auto;
+}
 /*# sourceMappingURL=style.css.map */
