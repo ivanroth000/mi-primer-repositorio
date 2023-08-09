@@ -221,9 +221,14 @@ const completarCarrito = () =>{
 
     const total = carrito.reduce((acumulador, p) => acumulador + p.precio * p.cantidad, 0)
     const totalCarrito = document.createElement('div')
+    const btnPagar = document.createElement('button')
+    btnPagar.className = 'total-content btn-pagar'
+    btnPagar.innerText = 'Finalizar compra'
     totalCarrito.className = 'total-content'
     totalCarrito.innerHTML = `Total a pagar: $${total}`
     contenidoCarritoHeader.append(totalCarrito)
+    contenidoCarritoHeader.append(btnPagar)
+
     
 
 }

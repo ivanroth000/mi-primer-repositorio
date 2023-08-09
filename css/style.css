@@ -387,7 +387,8 @@ footer .contactoFotterUbicacion p {
 }
 
 .modal-container{
-  width: 55%;
+  width: 60%;
+  
   right: 0%;
   max-height: 80vh;
   color: #000000;
@@ -474,10 +475,22 @@ footer .contactoFotterUbicacion p {
   background-color: #8163b9;
 }
 .btn-alert-form:hover{
-  background-color: #371870;;
+  background-color: #371870;
 }
 .comentario-card{
     margin-left: auto;
     margin-right: auto;
+}
+
+.btn-pagar{
+  padding: 7px;
+  margin-bottom: 12px;
+  margin-top: 3px;
+  margin-left: 40%;
+  border: none;
+  border-radius: 7px;
+}
+.btn-pagar:hover{
+  background-color: #7352af
 }
 /*# sourceMappingURL=style.css.map */
