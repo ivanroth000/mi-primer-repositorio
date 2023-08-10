@@ -112,6 +112,11 @@ const productos = [
     },
 ]
 
+/*Hice un array de productos y agarre un btn para que cuando le haga click se aparezca un
+alert de toastify de 'producto agregado' y que el producto apartir del ID se mande
+al carrito
+*/
+
 let carrito = JSON.parse(localStorage.getItem('carrito')) || []
 let botonAgregarAlCarrito = document.querySelectorAll('.agregarAlCarrito')
 let verCarrito = document.getElementById("carrito-de-compras")
@@ -156,8 +161,8 @@ botonAgregarAlCarrito.forEach((boton) => {
     };
   });
 
+  //Aca hacemos el carrito
 const completarCarrito = () =>{
-
     
     contenidoCarritoHeader.innerHTML = ''
     contenidoCarritoHeader.style.display = 'block'
@@ -176,7 +181,7 @@ const completarCarrito = () =>{
     }
 
 
-
+    //Acá hacemos los productos que van al carrito
     carrito.forEach((producto) => {
         const carritoContenido = document.createElement('div')
         carritoContenido.className = 'modal-content'
@@ -218,7 +223,7 @@ const completarCarrito = () =>{
 
         btnEliminar.addEventListener('click',eliminarProducto);
     })
-
+    //Este es el contador de - y + para sumar productos desde el carrito
     const total = carrito.reduce((acumulador, p) => acumulador + p.precio * p.cantidad, 0)
     const totalCarrito = document.createElement('div')
     const btnPagar = document.createElement('button')
@@ -238,6 +243,7 @@ verCarrito.addEventListener('click', function(event) {
     completarCarrito();
 });
 
+//Filtra el producto desde el ID
 const eliminarProducto = (event) => {
     const productoId = parseInt(event.target.dataset.productId);
    
@@ -251,6 +257,7 @@ const eliminarProducto = (event) => {
    completarCarrito()
 }
 
+//Guardamos los productos en el LocalStorage
 const carritoContador = () =>{
     cantidadCarrito.style.display = 'block'
     const carritoLength = carrito.length
@@ -263,7 +270,9 @@ const guardarLocal = () => {
     localStorage.setItem('carrito', JSON.stringify(carrito))
 }
 
-//comentarios
+//En el apartado de 'cómo comprar' agregué una sección de comentarios simulando una API
+//desde la pag de jsonplaceholder
+
 let seccionComentarios = document.querySelector('.seccion-comentarios');
 
 async function obtenerComentarios() {
@@ -289,7 +298,8 @@ async function obtenerComentarios() {
 
 obtenerComentarios();
 
-//Formulario
+//Al formulario en el apartado de 'contacto' lo validamos y una vez completado
+//se visualiza un alert de SweetAlert de 'Mensaje enviado'
 
 let formularioContacto = document.querySelector('.formulario-contacto')
 let btnEnviar = document.querySelector('.btn-enviar')
