@@ -281,7 +281,7 @@ async function obtenerComentarios() {
         const data = await respuesta.json();
 
         // Itera solo los primeros 5 comentarios
-        for (let i = 0; i < 5; i++) {
+        for (i = 0; i < 5; i++) {
             const post = data[i];
             let contenedor = document.createElement('div');
             contenedor.innerHTML = `
