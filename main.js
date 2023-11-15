@@ -187,10 +187,10 @@ const completarCarrito = () =>{
         carritoContenido.className = 'modal-content'
         carritoContenido.innerHTML = `
         <img  src='${producto.img}' style='height: 150px; width: 150px;'>
-        <h3 class='h3 '> ${producto.nombre}</h3>
-        <p class='h4'> $${producto.precio * producto.cantidad} </p>
+        <h3 class='h3 nombre-producto'> ${producto.nombre}</h3>
+        <p class='h4 producto-precio'> $${producto.precio * producto.cantidad} </p>
         <span class='restar'> - </span>
-        <p class='h5'> Cantidad: ${producto.cantidad}</p>
+        <p class='h5 cantidad'> Cantidad: ${producto.cantidad}</p>
         <span class='sumar'> + </span>
         `
         contenidoCarritoHeader.append(carritoContenido)
