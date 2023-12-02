@@ -1,0 +1,44 @@
+[
+    {
+      "postId": 1,
+      "id": 1,
+      "name": "Mario Botta",
+      "email": "Eliseo@gardner.biz",
+      "body": "Una experiencia deliciosa en cada bocado. Los postres son un sueño hecho realidad. ¡Volveré por más!"
+    },
+    {
+      "postId": 1,
+      "id": 2,
+      "name": "Tatiana Barco",
+      "email": "Jayne_Kuhic@sydney.com",
+      "body": "Excelente calidad en cada postre. Los sabores son genuinos y el servicio es amigable. Siempre una buena elección. ¡Recomendado al 100%!"
+    },
+    {
+      "postId": 1,
+      "id": 3,
+      "name": "Jerónimo fernandez",
+      "email": "Nikita@garfield.biz",
+      "body": "Una joya en La Plata. Esta pastelería ofrece cosas riquisimas. ¡Maravilloso!"
+    },
+    {
+      "postId": 1,
+      "id": 4,
+      "name": "Mabel Ruiz Díaz",
+      "email": "Lew@alysha.tv",
+      "body": "Los postres de esta pastelería son un deleite para los sentidos. El servicio es amable y el ambiente acogedor. ¡Una visita obligada en La Plata!"
+    },
+    {
+      "postId": 1,
+      "id": 5,
+      "name": "Verónica Casco",
+      "email": "Hayden@althea.biz",
+      "body":  "La pastelería tiene una variedad increíble de opciones. Los pasteles son deliciosos, frescos y siempre cumplen las expectativas."
+    },
+    {
+      "postId": 2,
+      "id": 6,
+      "name": "et fugit eligendi deleniti quidem qui sint nihil autem",
+      "email": "Presley.Mueller@myrl.com",
+      "body": "doloribus at sed quis culpa deserunt consectetur qui praesentium\naccusamus fugiat dicta\nvoluptatem rerum ut voluptate autem\nvoluptatem repellendus aspernatur dolorem in"
+    }
+]

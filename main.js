@@ -281,7 +281,7 @@ let seccionComentarios = document.querySelector('.seccion-comentarios');
 
 async function obtenerComentarios() {
     try {
-        const respuesta = await fetch('https://jsonplaceholder.typicode.com/comments');
+        const respuesta = await fetch('data.json');
         const data = await respuesta.json();
 
         // Itera solo los primeros 5 comentarios
