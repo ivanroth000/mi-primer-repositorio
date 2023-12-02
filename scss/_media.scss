@@ -55,40 +55,7 @@
       
 }
 
-@media (max-width: 1236px) {
-  .modal-container{
-    display: flex;
-    width: 70%;
-    right: 10%;
-  }
 
-  .modal-content{
-    h3{
-      width: 10px;
-    }
-    p{
-      width: 10px;
-    }
-    .restar, .sumar{
-      font-size: 45px;
-      padding: 0;
-    }
-    .producto-precio{
-      font-size: 22px;
-      margin-left: 50px;
-    }
-    .restar{
-      margin-left: 30px;
-    }
-    .sumar{
-      margin-right: 10px;
-    }
-    .cantidad{
-      margin-bottom: 15px;
-      padding: 0;
-    }
-  }
-}
 
 @media (max-width: 767px) {
     footer{
@@ -171,51 +138,4 @@
         border: 2px solid black; 
         border-radius: 4px;
         }
-}
-
-@media (max-width: 766px){
-  
-  .modal-content{
-    .nombre-producto{
-      display: none;
-    }
-    .producto-precio{
-      margin-left: 0px;
-    }
-  }
-}
-
-@media (max-width: 657px){
-  .modal-container{
-    display: flex;
-    width: 85%;
-    margin-left: 15px;
-
-    .btn-pagar{
-      margin-left: 33%;
-    }
-  }
-}
-
-
-@media (max-width: 657px){
-  .modal-container{
-    width: 90%;
-    padding-left: 30px;
-  }
-}
-
-@media (max-width: 423px){
-  .modal-container{
-    width: 90%;
-    display: flex;
-    left: 10px;
-   .modal-content{
-    margin-left: 0;
-    img{
-      width: 50px;
-      opacity: 1;
-    }
-   }
-  }
 }

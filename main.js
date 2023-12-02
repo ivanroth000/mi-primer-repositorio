@@ -123,6 +123,11 @@ let verCarrito = document.getElementById("carrito-de-compras")
 let contenidoCarritoHeader = document.getElementById('contenido-carrito-header')
 let cantidadCarrito = document.getElementById('cantidadCarrito')
 
+
+document.addEventListener('DOMContentLoaded', () => {
+    completarCarritoEnOtraPagina();
+});
+
 botonAgregarAlCarrito.forEach((boton) => {
     boton.onclick = () => {
         Toastify({
@@ -162,23 +167,25 @@ botonAgregarAlCarrito.forEach((boton) => {
   });
 
   //Aca hacemos el carrito
-const completarCarrito = () =>{
-    
-    contenidoCarritoHeader.innerHTML = ''
-    contenidoCarritoHeader.style.display = 'block'
+const completarCarritoEnOtraPagina = () =>{
+    const contenidoCarritoOtraPagina = document.getElementById('contenido-carrito-otra-pagina');
+    contenidoCarritoOtraPagina.innerHTML = ''
+    contenidoCarritoOtraPagina.style.display = 'block'
+    let tituloCarrito = document.querySelector('.titulo-carritos')
+    if (carrito.length === 0) {
+        tituloCarrito.style.display = 'block'; // Muestra el título si el carrito está vacío
+        productosEnCarrito.style.display = 'none'
+        
+    } else {
+        tituloCarrito.style.display = 'none'; // Oculta el título si hay productos en el carrito
+    }
+
     const productosEnCarrito = document.createElement('div')
     productosEnCarrito.className = 'modal-header'
     productosEnCarrito.innerHTML = `<h1 class='modal-header-title'>Carrito 🛒</h1>`
-    contenidoCarritoHeader.append(productosEnCarrito)
+    contenidoCarritoOtraPagina.append(productosEnCarrito)
 
-    const btnCerrarCarrito = document.createElement('h1')
-    btnCerrarCarrito.innerText = `x`
-    btnCerrarCarrito.className = 'modal-header-button'
-    productosEnCarrito.append(btnCerrarCarrito)
-
-    btnCerrarCarrito.onclick = ()=>{
-        contenidoCarritoHeader.style.display = 'none'
-    }
+    
 
 
     //Acá hacemos los productos que van al carrito
@@ -187,13 +194,13 @@ const completarCarrito = () =>{
         carritoContenido.className = 'modal-content'
         carritoContenido.innerHTML = `
         <img  src='${producto.img}' style='height: 150px; width: 150px;'>
-        <h3 class='h3 nombre-producto'> ${producto.nombre}</h3>
-        <p class='h4 producto-precio'> $${producto.precio * producto.cantidad} </p>
+        <h3 class='h3 '> ${producto.nombre}</h3>
+        <p class='h4'> $${producto.precio * producto.cantidad} </p>
         <span class='restar'> - </span>
-        <p class='h5 cantidad'> Cantidad: ${producto.cantidad}</p>
+        <p class='h5'> Cantidad: ${producto.cantidad}</p>
         <span class='sumar'> + </span>
         `
-        contenidoCarritoHeader.append(carritoContenido)
+        contenidoCarritoOtraPagina.append(carritoContenido)
 
         let restar = carritoContenido.querySelector('.restar')
         restar.addEventListener('click', () => {
@@ -227,21 +234,17 @@ const completarCarrito = () =>{
     const total = carrito.reduce((acumulador, p) => acumulador + p.precio * p.cantidad, 0)
     const totalCarrito = document.createElement('div')
     const btnPagar = document.createElement('button')
-    btnPagar.className = 'total-content btn-pagar'
+    btnPagar.className = 'btn-pagar'
     btnPagar.innerText = 'Finalizar compra'
     totalCarrito.className = 'total-content'
     totalCarrito.innerHTML = `Total a pagar: $${total}`
-    contenidoCarritoHeader.append(totalCarrito)
-    contenidoCarritoHeader.append(btnPagar)
+    contenidoCarritoOtraPagina.append(totalCarrito)
+    contenidoCarritoOtraPagina.append(btnPagar)
 
     
 
 }
 
-verCarrito.addEventListener('click', function(event) {
-    event.preventDefault();
-    completarCarrito();
-});
 
 //Filtra el producto desde el ID
 const eliminarProducto = (event) => {
@@ -268,6 +271,7 @@ carritoContador()
 
 const guardarLocal = () => {
     localStorage.setItem('carrito', JSON.stringify(carrito))
+    completarCarritoEnOtraPagina();
 }
 
 //En el apartado de 'cómo comprar' agregué una sección de comentarios simulando una API
@@ -365,5 +369,4 @@ btnCancelar.onclick = (e) => {
     e.preventDefault()
     limpiarForm()
 }
-
 

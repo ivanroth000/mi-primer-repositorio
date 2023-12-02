@@ -125,7 +125,7 @@ h3{
 .mapaContainer{
     display: flex;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 10px;
     padding-left: 15px;
 }
 
@@ -159,7 +159,7 @@ h3{
   
   .modal-header{
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items: center;
     background-color: #8e59f1;
     color: #000000;
@@ -168,21 +168,16 @@ h3{
   }
   
   .modal-container{
-    width: 60%;
-    right: 0%;
-    max-height: 80vh;
+    width: 100%;
     color: #000000;
-    background-color: #CEE4ED;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: fixed;
     overflow: auto;
     z-index: 9;
-    top: 12vh;
     scrollbar-color: none;
     margin-right: 34px;
-    
+    margin-bottom: 20px;
   }
   
   .modal-container::-webkit-scrollbar{
@@ -195,11 +190,6 @@ h3{
     padding-right: 50px;
   }
   
-  .modal-header-title{
-    justify-self: start;
-    margin-left: 47px;
-  }
-  
   .modal-content{
     display: flex;
     flex-direction: row;
@@ -207,11 +197,9 @@ h3{
     align-items:center;
     width: 100%;
     margin: 10px;
-  
   }
   
   .carrito-contenedor div  img{
-    height: 50px;
     width: 50px;
   }
   
@@ -221,6 +209,18 @@ h3{
     padding: 20px;
     text-align: center;
     margin: 20px;
+  }
+
+  .btn-pagar{
+    background-color: #8e59f1;
+    font-size: 25px;
+    text-align: center;
+    padding: 7px;
+    margin-bottom: 12px;
+    margin-top: 3px;
+    margin-left: 45%;
+    border: none;
+    border-radius: 7px;
   }
   
   
@@ -262,14 +262,7 @@ h3{
       margin-right: auto;
   }
   
-  .btn-pagar{
-    padding: 7px;
-    margin-bottom: 12px;
-    margin-top: 3px;
-    margin-left: 40%;
-    border: none;
-    border-radius: 7px;
-  }
+  
   .btn-pagar:hover{
     background-color: #7352af
   }
