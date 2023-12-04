@@ -310,6 +310,47 @@ h3 {
   background-color: #7352af;
 }
 
+.mediosDePago svg {
+  width: 70px;
+  margin: 20px;
+}
+
+.mercadoPago {
+  width: 95px;
+  margin-left: 30px;
+}
+
+.formasDePago {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-pagar {
+  margin-left: 100px;
+}
+
+.btn-pagar-form {
+  background-color: #8e63dc;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left: 45%;
+  border: none;
+  border-radius: 7px;
+}
+
+.btn-pagar-form:hover {
+  background-color: #7352af;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 footer {
   background-color: #CEE4ED;
   display: flex;

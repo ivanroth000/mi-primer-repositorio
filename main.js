@@ -240,10 +240,13 @@ const completarCarritoEnOtraPagina = () =>{
     totalCarrito.innerHTML = `Total a pagar: $${total}`
     contenidoCarritoOtraPagina.append(totalCarrito)
     contenidoCarritoOtraPagina.append(btnPagar)
+    
+    btnPagar.addEventListener('click', () => {
+        window.location.href = 'pagar.html';
+    })
+}
 
     
-
-}
 
 
 //Filtra el producto desde el ID
@@ -370,3 +373,6 @@ btnCancelar.onclick = (e) => {
     limpiarForm()
 }
 
+
+
+  
