@@ -60,7 +60,15 @@
           }
 }
 
+@media (max-width: 819px){
+  #svg-mp{
+    margin-right: 20px;
+  }
 
+  .bi-instagram{
+    margin-bottom: 10px;
+  }
+}
 
 @media (max-width: 767px) {
     footer{
@@ -143,6 +151,10 @@
         border: 2px solid black; 
         border-radius: 4px;
         }
+
+        .bi-instagram{
+          margin-bottom: 0;
+        }
 }
 
 @media (max-width: 748px){
@@ -160,6 +172,33 @@
   }
 }
 
+@media (max-width: 566px){
+  .mediosDePago svg{
+    width: 60px;
+    margin: 20px;
+  }
+  .mercadoPago{
+    width: 88px;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 545px){
+  .form-pagar{
+    margin-left: 70px;
+  }
+}
+
+@media (max-width: 455px){
+  .mediosDePago svg{
+    width: 50px;
+  }
+  .mercadoPago{
+    width: 78px;
+    margin-right: 10px;
+  }
+}
+
 @media (max-width: 444px){
   .img-modal{
     width: 70px;
@@ -172,4 +211,47 @@
   .restar{
     margin-bottom: 20px;
   }
+}
+
+@media (max-width: 376px){
+ 
+  .mediosDePago svg{
+    width: 40px;
+  }
+  .mercadoPago{
+    width: 68px;
+    margin-right: 10px;
+  }
+  .form-pagar{
+    margin-left: 50px;
+  }
+
+}
+
+@media (max-width: 335px){
+
+  .mediosDePago{
+    display: inline-block;
+    width: 70%;
+    margin-left: 55px;
+  }
+  .mediosDePago svg{
+    width: 40px;
+  }
+  .mercadoPago{
+    width: 68px;
+  }
+  .form-pagar{
+    margin-left: 50px;
+  }
+
+
+  .contactoFooter{
+    margin-right: 20px;
+  }
+
+  .contactoFooterUbicacion p{
+    margin-top: 15px;
+  }
+
 }

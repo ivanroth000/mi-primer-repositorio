@@ -325,6 +325,12 @@ h3 {
   background-color: #7352af;
 }
 
+.mediosDePago {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .mediosDePago svg {
   width: 70px;
   margin: 20px;
@@ -332,7 +338,7 @@ h3 {
 
 .mercadoPago {
   width: 95px;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .formasDePago {
@@ -346,12 +352,14 @@ h3 {
 }
 
 .btn-pagar-form {
+  display: block;
   background-color: #8e63dc;
   font-size: 25px;
   text-align: center;
   padding: 10px;
   margin-bottom: 20px;
-  margin-left: 45%;
+  margin-left: auto;
+  margin-right: auto;
   border: none;
   border-radius: 7px;
 }
@@ -394,7 +402,6 @@ footer .mediosDePago svg {
 }
 footer .mercadoPago {
   width: 70px;
-  margin-left: 30px;
 }
 footer .logosRedesSociales {
   margin-top: 20px;
@@ -480,6 +487,14 @@ footer .contactoFotterUbicacion p {
     top: auto;
   }
 }
+@media (max-width: 819px) {
+  #svg-mp {
+    margin-right: 20px;
+  }
+  .bi-instagram {
+    margin-bottom: 10px;
+  }
+}
 @media (max-width: 767px) {
   footer {
     flex-direction: column;
@@ -542,6 +557,9 @@ footer .contactoFotterUbicacion p {
     border: 2px solid black;
     border-radius: 4px;
   }
+  .bi-instagram {
+    margin-bottom: 0;
+  }
 }
 @media (max-width: 748px) {
   .modal-content h3 {
@@ -555,6 +573,30 @@ footer .contactoFotterUbicacion p {
     margin-bottom: 20px;
   }
 }
+@media (max-width: 566px) {
+  .mediosDePago svg {
+    width: 60px;
+    margin: 20px;
+  }
+  .mercadoPago {
+    width: 88px;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 545px) {
+  .form-pagar {
+    margin-left: 70px;
+  }
+}
+@media (max-width: 455px) {
+  .mediosDePago svg {
+    width: 50px;
+  }
+  .mercadoPago {
+    width: 78px;
+    margin-right: 10px;
+  }
+}
 @media (max-width: 444px) {
   .img-modal {
     width: 70px;
@@ -566,6 +608,40 @@ footer .contactoFotterUbicacion p {
   }
   .restar {
     margin-bottom: 20px;
+  }
+}
+@media (max-width: 376px) {
+  .mediosDePago svg {
+    width: 40px;
+  }
+  .mercadoPago {
+    width: 68px;
+    margin-right: 10px;
+  }
+  .form-pagar {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 335px) {
+  .mediosDePago {
+    display: inline-block;
+    width: 70%;
+    margin-left: 55px;
+  }
+  .mediosDePago svg {
+    width: 40px;
+  }
+  .mercadoPago {
+    width: 68px;
+  }
+  .form-pagar {
+    margin-left: 50px;
+  }
+  .contactoFooter {
+    margin-right: 20px;
+  }
+  .contactoFooterUbicacion p {
+    margin-top: 15px;
   }
 }
 

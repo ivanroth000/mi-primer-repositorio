@@ -282,15 +282,18 @@ h3{
     background-color: #7352af
   }
 
-//animación para que las cards de los productos si muevan un poco para arriba.
-
+  .mediosDePago{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 .mediosDePago svg{
   width: 70px;
   margin: 20px;
 }
 .mercadoPago{
   width: 95px;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 .formasDePago{
   display: flex;
@@ -303,12 +306,14 @@ h3{
 }
 
 .btn-pagar-form{
+  display: block;
   background-color: #8e63dc;
   font-size: 25px;
   text-align: center;
   padding: 10px;
   margin-bottom: 20px;
-  margin-left: 45%;
+  margin-left: auto;
+  margin-right: auto;
   border: none;
   border-radius: 7px;
 }
