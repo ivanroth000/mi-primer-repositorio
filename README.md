@@ -142,12 +142,8 @@ como en tablet y mobile.
 ![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/git-logo-final.svg)
 ![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/github-logo-final.svg)
 
-## Links
+## Link de mi dominio en vercel:
 
-Link del deployment de Github pages:
-https://ivanroth000.github.io/mi-primer-repositorio/
-
-Link de mi dominio en vercel:
 https://algodulce.vercel.app/
 
 
