@@ -130,6 +130,8 @@ como en tablet y mobile.
 ![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-html5.svg)
 ![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-css.svg)
 <img src="img-readme/js.png" alt="icono de javascript">
+!["icono de javascript"]("img-readme/js.png"){width=300px}
+
 
 ## Otras tecnologias
 ![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-bt.svg)
