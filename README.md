@@ -95,11 +95,28 @@ Footer del sitio:
 ## JavaScript
 
 Usé JavaScript para mejorar la interactividad y la experiencia del usuario. Cada vez que se clickea el botón de 'Agregar al carrito'
-aparecerá una alerta indicando que el producto fue agregado al carrito y aparecerá el número arriba del carrito de compras la cantidad
-de prodcutos que hay en el.
+aparecerá una alerta indicando que el producto fue agregado al carrito y aparecerá en el logo del carrito de compras que está en la nav
+la cantidad de productos que hay en el.
 
 <img src="img-readme/productoalcarrito.png" alt="alert del producto agregado al carrito">
 
+Los productos que se agregan al carrito se muestran en otra pestaña a la que se accede clickeando en el logo del carrito de la nav, si no
+hay productos se verá un título que dice 'No agregaste productos al carrito', sino se verá así:
+
+<img src="img-readme/carrito-con-productos.png" alt="página del carrito con los productos">
+
+Una vez que el usuario decide seguir adelante con la compra, el botón de 'finalizar compra' lo llevará a la página de confirmación de la compra
+donde tendrá que llenar un formulario con sus datos para hacer el pago de los productos:
+
+<img src="img-readme/formulario-de-pago.png" alt="formulario para pagar los productos">
+
+El formulario tiene una validación en cada input para que el usuario ingrese la información requerida:
+
+<img src="img-readme/validacion-formulario-de-pago.png" alt="validación del formulario de pago">
+
+Por último, una vez que el usuario completa el formulario correctamente, aparecerá un pop-up cuando haga click en el botón 'confirmar compra'
+
+<img src="img-readme/pop-up.png" alt="pop up de confirmación de compra">
 
 
 ## Las otras páginas y responsive
@@ -112,6 +129,7 @@ como en tablet y mobile.
 ## Lenguajes
 ![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-html5.svg)
 ![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-css.svg)
+<img src="img-readme/js.png" alt="icono de javascript">
 
 ## Otras tecnologias
 ![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-bt.svg)
