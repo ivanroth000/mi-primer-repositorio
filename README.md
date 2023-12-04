@@ -129,7 +129,7 @@ como en tablet y mobile.
 ## Lenguajes
 ![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-html5.svg)
 ![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/img-css.svg)
-<img src="img-readme/js.png" alt="icono de javascript" width='200px'>
+<img src="img-readme/js.png" alt="icono de javascript" width='50px'>
 
 
 
