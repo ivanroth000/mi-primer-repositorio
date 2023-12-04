@@ -193,7 +193,7 @@ const completarCarritoEnOtraPagina = () =>{
         const carritoContenido = document.createElement('div')
         carritoContenido.className = 'modal-content'
         carritoContenido.innerHTML = `
-        <img  src='${producto.img}' style='height: 150px; width: 150px;'>
+        <img class='img-modal'  src='${producto.img}'>
         <h3 class='h3 '> ${producto.nombre}</h3>
         <p class='h4'> $${producto.precio * producto.cantidad} </p>
         <span class='restar'> - </span>
@@ -222,7 +222,7 @@ const completarCarritoEnOtraPagina = () =>{
         let btnEliminar = document.createElement('img')
         btnEliminar.src = "imagenes/basura.png"
         btnEliminar.alt = 'Botón de basura para eliminar los productos del carrito'
-        btnEliminar.style.width = '30px'
+        btnEliminar.classList.add('btn-eliminar-producto');
         btnEliminar.style.cursor = 'pointer'
         btnEliminar.setAttribute('data-product-id', producto.id);
         carritoContenido.append(btnEliminar)

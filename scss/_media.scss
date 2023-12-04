@@ -52,7 +52,12 @@
           border-radius: 4px;
           }
       
-      
+          .cantidad-carrito{
+            bottom: 37px;
+            left: 65px;
+            right: auto;
+            top: auto;
+          }
 }
 
 
@@ -138,4 +143,33 @@
         border: 2px solid black; 
         border-radius: 4px;
         }
+}
+
+@media (max-width: 748px){
+  .modal-content h3{
+    display: none;
+  }
+
+  .img-modal{
+    width: 100px;
+    height: auto;
+  }
+
+  .restar{
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 444px){
+  .img-modal{
+    width: 70px;
+    height: auto;
+  }
+  .btn-eliminar-producto{
+    width: 20px;
+    margin-right: 5px;
+  }
+  .restar{
+    margin-bottom: 20px;
+  }
 }
