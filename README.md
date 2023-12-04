@@ -3,7 +3,7 @@
 ## Introducción
 
 Este proyecto fue realizado para la entrega final del curso de desarrollo web de CoderHouse. El sitio web es sobre una pastelería llamada
-"Algo Dulce", la cual cuenta con 5 páginas (más una de error 404) desarrolladas con HTML, CSS y el uso de frameworks como SASS, BOOTSTRAP
+"Algo Dulce", la cual está desarrollada con HTML, CSS, JavaScript y el uso de frameworks como SASS, BOOTSTRAP
 y NODE.JS. También se utilizó GIT para el uso de control de versiones y GitHub como repositorio.
 
 ## Sobre mí
@@ -92,12 +92,20 @@ Footer del sitio:
 
 ![image](https://github.com/ivanroth000/mi-primer-repositorio/blob/master/img-readme/footer-web.png)
 
+## JavaScript
+
+Usé JavaScript para mejorar la interactividad y la experiencia del usuario. Cada vez que se clickea el botón de 'Agregar al carrito'
+aparecerá una alerta indicando que el producto fue agregado al carrito y aparecerá el número arriba del carrito de compras la cantidad
+de prodcutos que hay en el.
+
+<img src="img-readme/productoalcarrito.png" alt="alert del producto agregado al carrito">
+
+
+
 ## Las otras páginas y responsive
 
 El sitio web cuenta con otras páginas de "contacto", "sobre nosotros" y "cómo comprar". Todo el sitio web se puede ver tanto en escritorio
-como en tablet y mobile. En ciertos casos hubo que hacer unos retoques usando media queries para ajustar ciertos elementos.
-
-Por último, agregué una página de "error 404" a la que se accede clickeando en los botones de "agregar al carrito".
+como en tablet y mobile.
 
 # Lenguajes y tecnologías usados
 
